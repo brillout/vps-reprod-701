@@ -5,7 +5,6 @@ const config = {
   plugins: [react(), ssr()],
   ssr: {
     noExternal: ['@apollo/client']
-    //noExternal: true
   }
 }
 
